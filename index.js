@@ -36,6 +36,9 @@ class GreenlockProxy {
             domains: domains,
             targets: targets
         })
+    }
+
+    handle_certificate(domains) {
         this.greenlock.add({
             subject: domains[0],
             altnames: domains

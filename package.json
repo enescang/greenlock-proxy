@@ -1,17 +1,17 @@
 {
-  "name": "greenlock-proxy",
-  "version": "0.2.0",
+  "name": "greenlock-proxy-handler",
+  "version": "0.0.1",
   "description": "HTTPS proxy wrapper for greenlock",
   "main": "index.js",
   "scripts": {
     "postversion": "git push && git push --tags"
   },
-  "author": "https://github.com/roslovets",
+  "author": "https://github.com/enescang",
   "license": "ISC",
-  "homepage": "https://github.com/Roslovets-Inc/greenlock-proxy#readme",
+  "homepage": "https://github.com/enescang/greenlock-proxy#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Roslovets-Inc/greenlock-proxy"
+    "url": "https://github.com/enescang/greenlock-proxy"
   },
   "keywords": [
     "SSL",
@@ -19,7 +19,8 @@
     "proxy",
     "Let's Encrypt",
     "ACME",
-    "greenlock"
+    "greenlock",
+    "auto SSL"
   ],
   "dependencies": {
     "greenlock-express": "^4.0.3",
